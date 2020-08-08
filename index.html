@@ -27,34 +27,36 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
-        <img src="assets/images/logo.png" class="logo-brand" width="40px" height="80px" alt="logo">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="assets/images/menu.svg">
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#hero">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">EBV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Equipos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Preguntas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contactanos</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+            <img src="assets/images/logo-sm.png" class="logo-brand" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">EBV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <section id="hero">
-        <duv class="container">
+        <div class="container-fluid">
             <div class="content-center">
                 <h1 class="mt-5">ESTUDIOS BÍBLICOS VIRTUALES</h1>
                 <p class="bg-dark">Deléitate asimismo en Jehová,
@@ -62,7 +64,7 @@
                 <a href="Http://forms.gle/MBqNHp5vJs85CoXPA" class="btn btn-secondary mt-4">Inscríbete ahora<img src="assets/images/arrow-right.svg"
                         class="ml-2"></a>
             </div>
-        </duv>
+        </div>
     </section>
 
     <section id="portfolio">
@@ -128,13 +130,24 @@
                 </div>
             </div>
             <div class="text-center mt-4">
-                <h2 class="">¿Quieres unirtenos?</h2>
-                <a href="#" class="text-dark"><h4>Hazlo ahora.</h4></a>
+                <h2 class="">¿Quieres participar?</h2>
+                <a href="#" class="text-dark"><h4>¡Unete ahora!</h4></a>
             </div>
         </div>
     </section>
 
-    <section id="team" class="bgLightGrey">
+    <section id="facebook" class="bgLightGrey">
+        <div class="container">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center mt-4">
+                    <h2 class="">¡Acompañanos!</h2>
+                    <h4>Puedes asistir al estudio entrando a nuestra pagina de Facebook</h4>
+                    <a target="_blank" href="https://www.facebook.com/Estudios-Biblicos-Virtuales-113772637076115/"><img width="100px" src="assets/images/facebook-blue.svg" class="img-fluid text-primary"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
         <div class="container">
             <div class="content-center">
                 <h2>Tienes una buena compañia con <b>Nuestros Equipos</b></h2>
@@ -183,11 +196,15 @@
                         <img src="assets/images/morado.jpeg" width="200px" height="200px" class="img-fluid" alt="member 7">
                     </div>
                 </div>
+                <div class="col-md-4 text-center">
+                    <div class="member-container">
+                        <img src="assets/images/negro.jpeg" width="200px" height="200px" class="img-fluid" alt="member 7">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <section id="pricing" class="divider">
+    <section id="pricing" class="divider bgLightGrey">
         <div class="container">
             <div class="content-center">
                 <h2>Cuéntanos o pregúntanos <b>Queremos conocerte</b></h2>
@@ -277,15 +294,15 @@
                 <li class="list-inline-item footer-menu"><a href="#">Contacto</a></li>
             </ul>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
+                <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/Estudios-Biblicos-Virtuales-113772637076115/"><img src="assets/images/facebook.svg" class="img-fluid"></a>
                 </li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a>
+                <li class="list-inline-item"><a target="_blank" href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
                 </li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a>
+                <li class="list-inline-item"><a target="_blank" href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a>
                 </li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a>
+                <li class="list-inline-item"><a target="_blank" href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a>
                 </li>
-                <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a>
+                <li class="list-inline-item"><a target="_blank" href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a>
                 </li>
             </ul>
             <small>©2020 All Rights Reserved. Created by Globito</small>

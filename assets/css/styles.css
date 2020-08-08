@@ -71,8 +71,8 @@ a:hover { text-decoration: none; }
 .btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
 
 .logo-brand {
-    max-width: 140px;
-    min-width: 120px;
+    max-width: 80px;
+    min-width: 80px;
 }
 
 section { padding: 120px 0; }
@@ -105,7 +105,7 @@ section { padding: 120px 0; }
 .navbar {
     background-color: var(--white-color);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-    min-height: 100px;
+    /*min-height: 100px;*/
 }
 
 .nav-link { color: var(--dark-color); }
